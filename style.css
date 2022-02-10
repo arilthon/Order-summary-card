@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: top left;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28.2rem;
+  background-color: #fff;
+  border-radius: 0.938rem;
+  margin: 1.5rem;
+  box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 15.18%);
+}
+.container-image img {
+  width: 100%;
+  border-radius: 0.938rem 0.938rem 0 0;
+}
+.container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-title h1 {
+  margin-top: 2.813rem;
+  font-size: 1.875rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+}
+.container-title p {
+  display: inline-block;
+  text-align: center;
+  margin: 0 3.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+.container-plan {
+  width: 320px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%, 60%);
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.plan-desc {
+  margin-top: 1.25rem;
+  display: flex;
+}
+.plan-icon {
+  margin-right: 0.938rem;
+  padding-bottom: 12px;
+}
+.plan-text {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.plan-price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.button {
+  text-align: center;
+  margin: 1.8rem 0 0 0;
+}
+.button input {
+  padding: 0.938rem 6.25rem;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.625rem;
+  border: none;
+}
+.button input:hover {
+  background-color: hsl(245, 52%, 47%);
+  color: #fff;
+  cursor: pointer;
+}
+.plan-link-Order {
+  text-align: center;
+  text-decoration: none;
+  margin: 1.25rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
